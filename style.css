@@ -1,4 +1,4 @@
-: :root {
+:root {
     --text-color: #FFF0F5;
     --card-front-color : #144480 ;
     --card-back-color : #88F48F;
@@ -34,15 +34,15 @@ body{
 }
 
 .cartao___conteudo h3{
-  color: var(--text)
-  border:1px solid var (--ext-color);
-  text-alin:center;
+  color: var(--text-color);
+  border: 1px solid var(--text-color);
+  text-align: left;
   padding: 0.5rem;
   position: absolute;
   margin: 0.6rem;
-  border-radius:0.6rem;
-  font-size:1vw;
-  backface-visibility:hidden;
+  border-radius: 0.6rem;
+  font-size: 1vw;
+  backface-visibility: hidden;
 }
 
 .cartao___conteudo p{
@@ -53,7 +53,7 @@ body{
 }
  
 .cartao___conteudo___pergunta p{
-    color; var(--text-color);
+    color: var(--text-color);
     font-weight:500;
 }
 
