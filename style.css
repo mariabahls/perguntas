@@ -23,7 +23,7 @@ body{
     flex-grow :1;
     flex-basis: calc(33%-6grem);
 }
-.cartao___conteudo h3{
+.cartao__conteudo h3{
     background-color: var(--card-front-color);
     text-align: center;
     /* background-color:aquamarine; */
@@ -33,7 +33,7 @@ body{
 
 }
 
-.cartao___conteudo h3{
+.cartao__conteudo h3{
   color: var(--text-color);
   border: 1px solid var(--text-color);
   text-align: left;
@@ -45,29 +45,29 @@ body{
   backface-visibility: hidden;
 }
 
-.cartao___conteudo p{
+.cartao__conteudo p{
     margin-top:1rem;
     padding:2rem;
     margin-top:4rem;
     font-size:1.4vw;
 }
  
-.cartao___conteudo___pergunta p{
+.cartao__conteudo__pergunta p{
     color: var(--text-color);
     font-weight:500;
 }
 
-.cartao___conteudo___respostas p{
+.cartao__conteudo__respostas p{
     color: var(--card-back-color);
     font-weight: 700;
 }
 
-.cartao.active   .cartao___conteudo{
+.cartao.active   .cartao__conteudo{
     transform: rotateY(180deg);
 }
 
-.cartao___conteudo___pergunta,
-.cartao___conteudo___respostas{
+.cartao__conteudo__pergunta,
+.cartao__conteudo__respostas{
     backface-visibility: hidden;
     position: absolute;
     height:100%;
@@ -75,7 +75,7 @@ body{
     box-sizing: border-box;
 }
 
-.cartao___conteudo___respostas{
+.cartao__conteudo__respostas{
     transform: rotateY(180deg);
     background-color: rgba(0, 244, 191, 0.2);
     border: 4px solid var(--card-back-color);
@@ -97,7 +97,7 @@ footer p {
 }
 
 @media(max-width:560px) {
-
+    
     body {
         background: url('pngtree-modern-double-color-futuristic-neon-background-image_351866.jpg'), no-repeat cover;
     }
@@ -106,11 +106,11 @@ footer p {
     flex: 1 0 calc(100% - 1rem)
 }
 
-.cartao___conteudo h3{
+.cartao__conteudo h3{
     font-size: 3vw;
 }
 
-.cartao___conteudo p {
+.cartao__conteudo p {
     font-size: 3.8vw;
 }
  }
